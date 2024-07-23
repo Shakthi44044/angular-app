@@ -1,5 +1,12 @@
 {
   "dependencies": {
-    "angular": "^1.8.3"
+    "angular": "^18.1.1"
+  },
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve--port 9576",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
   }
 }
